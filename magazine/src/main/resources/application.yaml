@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database: mysql
+  datasource:
+    url: jdbc:mysql://172.17.0.2/test
+    password: test123
+    username: root
+security:
+  basic:
+    enabled: false
